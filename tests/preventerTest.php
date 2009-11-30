@@ -11,7 +11,7 @@ require_once('tests/testcase.php');
 /**
  * Test that
  */
-class midgardmvc_helper_xsspreventer_tests_preventerTest extends midcom_tests_testcase
+class midgardmvc_helper_xsspreventer_tests_preventerTest extends midgardmvc_tests_testcase
 {
     /**
       * Testing XML attribute escaping. Case tested is
