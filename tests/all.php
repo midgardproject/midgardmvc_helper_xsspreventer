@@ -29,7 +29,7 @@ class midgardmvc_helper_xsspreventer_tests_all
  
     public static function suite()
     {
-        $suite = new PHPUnit_Framework_TestSuite('MidCOM midgardmvc_helper_xsspreventer');
+        $suite = new PHPUnit_Framework_TestSuite('Midgard MVC midgardmvc_helper_xsspreventer');
         
         $tests = midgardmvc_core_tests_helpers::get_tests(__FILE__, __CLASS__);
         foreach ($tests as $test)
