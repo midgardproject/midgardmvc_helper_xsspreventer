@@ -13,7 +13,7 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
 require_once('PHPUnit/Framework.php');
 require_once('PHPUnit/TextUI/TestRunner.php');
 
-require_once('tests/helpers.php');
+require_once(dirname(__FILE__) . '/../../midgardmvc_core/tests/helpers.php');
 
 /**
  * Run all XSS tests
