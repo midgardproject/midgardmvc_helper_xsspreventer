@@ -11,7 +11,7 @@
  *
  * @package midgardmvc_helper_xsspreventer
  */
-class midgardmvc_helper_xsspreventer_tests_preventerTest extends midgardmvc_core_tests_testcase
+class midgardmvc_helper_xsspreventer_tests_preventerTest extends PHPUnit_FrameWork_TestCase
 {
     /**
       * Testing XML attribute escaping. Case tested is
