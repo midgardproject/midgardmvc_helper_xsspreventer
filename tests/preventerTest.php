@@ -1,17 +1,17 @@
 <?php
 /**
- * @package midgardmvc_core
+ * @package midgardmvc_helper_xsspreventer
  * @author The Midgard Project, http://www.midgard-project.org
  * @copyright The Midgard Project, http://www.midgard-project.org
  * @license http://www.gnu.org/licenses/lgpl.html GNU Lesser General Public License
  */
 
-require_once('tests/testcase.php');
-
 /**
  * Test that
+ *
+ * @package midgardmvc_helper_xsspreventer
  */
-class midgardmvc_helper_xsspreventer_tests_preventerTest extends midgardmvc_tests_testcase
+class midgardmvc_helper_xsspreventer_tests_preventerTest extends PHPUnit_FrameWork_TestCase
 {
     /**
       * Testing XML attribute escaping. Case tested is
